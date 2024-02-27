@@ -22,9 +22,11 @@ const HeroSection = () => {
             src="/assets/Images/hero.png"
             alt="Hero Image"
             width={500}
+            quality={100}
+            priority={true}
             height={300}
             objectFit="contain"
-            className="md:w-full md:h-[550px]"
+            className="md:w-full md:h-[600px] no-wrap"
           />
         </div>
       </div>
