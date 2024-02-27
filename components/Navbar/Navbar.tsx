@@ -13,7 +13,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "../ui/sheet";
-
+import { Button } from "../ui/button";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -109,7 +109,11 @@ const Navbar = () => {
               </Link>
             </li>
 
-           
+            <Link href="/contact-us">
+              <Button className="bg-gradient-to-r from-teal-400 to-cyan-500 hover:from-teal-500 hover:to-cyan-600 text-white font-bold py-2 px-4 transition duration-150 ease-in-out transform hover:scale-105 rounded-lg text-base">
+                Get Started
+              </Button>
+            </Link>
           </ul>
         </div>
 
