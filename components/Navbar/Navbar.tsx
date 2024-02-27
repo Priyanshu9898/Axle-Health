@@ -13,7 +13,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "../ui/sheet";
-import { Button } from "../ui/button";
+
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -66,8 +66,8 @@ const Navbar = () => {
                 <Link href="">Solutions</Link>
               </li>
               {isHovered && (
-                <div className="absolute left-[-150px] w-[400px]">
-                  <div className="py-2 mt-2 bg-gray-50 shadow-lg p-4 rounded-lg">
+                <div className="absolute left-[-150px] w-[400px] z-[1000]">
+                  <div className="py-2 mt-2 bg-gray-50 shadow-lg p-4 rounded-lg z-auto">
                     <ul className="flex flex-col items-start justify-center gap-3 mt-2 px-2">
                       <li className="text-left">
                         <Link
@@ -109,11 +109,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <Link href="/contact-us">
-              <Button className="bg-gradient-to-r from-teal-400 to-cyan-500 hover:from-teal-500 hover:to-cyan-600 text-white font-bold py-2 px-4 transition duration-150 ease-in-out transform hover:scale-105 rounded-lg text-base">
-                Get Started
-              </Button>
-            </Link>
+           
           </ul>
         </div>
 
