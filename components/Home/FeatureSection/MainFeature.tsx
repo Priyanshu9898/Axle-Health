@@ -34,7 +34,7 @@ const MainFeature = () => {
           description="Increase scheduling efficiency and staff utilization with Axle's proprietary logistics algorithms"
           linkText="Explore Workforce Management Software"
           linkHref="/explore-workforce-management-software"
-          imageUrl="/assets/images/route.png"
+          imageUrl="/assets/Images/route.png"
           imageFirstOnDesktop={false}
         />
         <FeatureComponent
@@ -42,7 +42,7 @@ const MainFeature = () => {
           description="Improve appointment show rate and patient experience with Axle's scheduling and messaging platform"
           linkText="Explore Workforce Management Software"
           linkHref="/explore-workforce-management-software"
-          imageUrl="/assets/images/patient.svg"
+          imageUrl="/assets/Images/patient.svg"
           imageFirstOnDesktop={true}
         />
         <FeatureComponent
@@ -50,7 +50,7 @@ const MainFeature = () => {
           description="Streamline clinician and admin workflows with automated scheduling, mileage tracking, patient communications, and more"
           linkText="Explore Workforce Management Software"
           linkHref="/explore-workforce-management-software"
-          imageUrl="/assets/images/patient.svg"
+          imageUrl="/assets/Images/patient.svg"
           imageFirstOnDesktop={false}
         />
         <FeatureComponent
@@ -58,7 +58,7 @@ const MainFeature = () => {
           description="Integrate seamlessly with the most common EMRs, CRMs, and HR solutions, or leverage our custom integration options"
           linkText="Explore Workforce Management Software"
           linkHref="/explore-workforce-management-software"
-          imageUrl="/assets/images/integration.svg"
+          imageUrl="/assets/Images/integration.svg"
           imageFirstOnDesktop={true}
         />
        

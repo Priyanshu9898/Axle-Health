@@ -34,7 +34,7 @@ const ImpactSection = ({ stats }: SkewedSectionProps) => {
         left: 0,
         right: 0,
         bottom: 0,
-        backgroundColor: '#024957', // Tailwind's green-500
+        backgroundColor: '#024957',
         clipPath: 'polygon(0 20%, 100% 0, 100% 100%, 0% 100%)',
         zIndex: -1,
       }}></div>
