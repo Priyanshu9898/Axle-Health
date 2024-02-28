@@ -11,37 +11,37 @@ interface Feature {
 
 const securityFeatures = [
   {
-    imageUrl: "/assets/images/security1.svg", 
+    imageUrl: "/assets/Images/security1.svg", 
     title: "SOC 2 Certified",
     description:
       "Axle is SOC-2 Type II certified, as verified by independent audit based on standards set by the AICPA.",
   },
   {
-    imageUrl: "/assets/images/security2.png",
+    imageUrl: "/assets/Images/security2.png",
     title: "HIPAA Compliant",
     description:
       "Axle is fully HIPAA compliant, as verified by independent audit based on standards set by the HHS.",
   },
   {
-    imageUrl: "/assets/images/security3.png",
+    imageUrl: "/assets/Images/security3.png",
     title: "SSO/SAML Auth",
     description:
       "Axle supports 20+ IdPs (Google, Okta, etc) so you can authenticate using your SSO/SAML provider.",
   },
   {
-    imageUrl: "/assets/images/security4.png",
+    imageUrl: "/assets/Images/security4.png",
     title: "Penetration Tested",
     description:
       "Axle undergoes regular penetration testing by an independent security research firm.",
   },
   {
-    imageUrl: "/assets/images/security5.png",
+    imageUrl: "/assets/Images/security5.png",
     title: "Data Encryption",
     description:
       "Axle encrypts all data in our platform in transit and at rest, using best in class encryption techniques.",
   },
   {
-    imageUrl: "/assets/images/security6.png",
+    imageUrl: "/assets/Images/security6.png",
     title: "Access Controls",
     description:
       "Axle provides fine-grained role types and permissions to ensure users have the appropriate levels of access.",

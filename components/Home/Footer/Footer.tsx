@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 lg:px-48">
         {/* Logo and Line */}
         <div className="flex flex-col items-start">
-          <Image src="/assets/images/logo.png" alt="Logo" width={120} height={120} className=" mb-4" />
+          <Image src="/assets/Images/logo.png" alt="Logo" width={120} height={120} className=" mb-4" />
           <div className="border-t h-[3px] border-[#5686bd] w-full"></div>
         </div>
         

@@ -17,10 +17,10 @@ const IconsSection = () => {
   const icons = [
     // "/assets/images/axios.svg", 
     // "/assets/images/yahoo.png",
-    "/assets/images/hit.png",
-    "/assets/images/home.jpg",
-    "/assets/images/hit.png",
-    "/assets/images/home.jpg",
+    "/assets/Images/hit.png",
+    "/assets/Images/home.jpg",
+    "/assets/Images/hit.png",
+    "/assets/Images/home.jpg",
   ];
 
   return (

@@ -7,17 +7,17 @@ import ManagedByAxleSection from "./ManagedFeature";
 
 const stats = [
   {
-    imagePath: "/assets/images/impact1.svg", 
+    imagePath: "/assets/Images/impact1.svg", 
     label: "appointments per shift",
     value: "+19%",
   },
   {
-    imagePath: "/assets/images/impact2.svg",
+    imagePath: "/assets/Images/impact2.svg",
     label: "patient no-show rate",
     value: "-31%",
   },
   {
-    imagePath: "/assets/images/impact3.svg",
+    imagePath: "/assets/Images/impact3.svg",
     label: "operations time spent",
     value: "-71%",
   },
