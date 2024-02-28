@@ -2,6 +2,8 @@ import React from "react";
 import FeatureComponent from "./FeatureComponent";
 import ImpactSection from "./ImpactSection";
 import IconsSection from "./IconSection";
+import SecurityFeaturesSection from "./SecurityFeatures";
+import ManagedByAxleSection from "./ManagedFeature";
 
 const stats = [
   {
@@ -20,6 +22,7 @@ const stats = [
     value: "-71%",
   },
 ]
+
 
 
 const MainFeature = () => {
@@ -47,7 +50,7 @@ const MainFeature = () => {
           description="Streamline clinician and admin workflows with automated scheduling, mileage tracking, patient communications, and more"
           linkText="Explore Workforce Management Software"
           linkHref="/explore-workforce-management-software"
-          imageUrl="/assets/images/operation.png"
+          imageUrl="/assets/images/patient.svg"
           imageFirstOnDesktop={false}
         />
         <FeatureComponent
@@ -62,6 +65,8 @@ const MainFeature = () => {
       </div>
       <ImpactSection stats={stats} />
       <IconsSection />
+      <SecurityFeaturesSection />
+      <ManagedByAxleSection />
     </div>
   );
 };

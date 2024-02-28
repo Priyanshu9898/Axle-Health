@@ -61,7 +61,7 @@ const FeatureComponent = ({
           {title}
         </motion.h1>
         <motion.div
-          className="h-1 w-28 bg-[#024957] mt-2"
+          className="h-1 w-44 bg-[#024957] mt-2"
           variants={itemVariants}
         ></motion.div>
         <motion.p className="text-[20px] mt-4 text-[#024957]" variants={itemVariants}>
